@@ -1,0 +1,418 @@
+*  {
+ box-sizing: border-box;
+ }
+
+.main-nav li {
+background: #E8E8E8;
+margin: 10px auto;
+list-style: none;
+font-family: 'Roboto',sans-serif;
+width:90%;
+color:#000;
+display: inline;
+font-style: normal;
+font-weight: bold;
+
+ }
+
+.main-nav  {
+display: inline;
+padding: 0;
+
+}
+
+
+.main-nav li a {
+display: block;
+padding: 10px 25px;
+text-decoration: none;
+font-family: 'Roboto',sans-serif;
+font-weight: bold;
+margin-left: 10px;
+
+}
+
+
+
+.name  {
+margin: 0;
+margin-right: 22px;
+}
+
+.container  {
+ padding-top: 20px;
+ top:20px
+}
+
+
+.about-p  {
+color: #fff;
+}
+
+
+.about-1 {
+ max-width: 100%;
+ color: #fff;
+
+}
+
+
+.container {
+background: #000;
+}
+
+
+body {
+ text-align:center;
+ margin: 0;
+ background-color: black;
+ line-height: 1.5;
+ max-width: 100%;
+ font-family:'Hind Guntur', sans-serif;
+
+}
+
+.img {
+width: 50%;
+
+}
+
+
+
+.portfolio {
+display: block;
+margin: 0px;
+position: relative;
+height: auto;
+max-width: 100%;
+overflow-y: hidden;
+overflow-x:auto;
+}
+
+
+
+p {
+font-size: 20px;
+color: #fff;
+}
+
+.container {
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 20px;
+}
+
+h1 {
+font-size: 30px;
+color: #fff;
+text-decoration: none;
+font-family: 'Roboto',sans-serif;
+margin: 10px;
+}
+
+
+
+.menu {
+display:none;
+}
+
+.t-border {
+padding: 0 1em;
+width:100%;
+border-top: 1px solid lightgrey;
+}
+
+
+.Leron,
+.top-1  {
+font-size: 1.2em;
+font-family: 'Roboto',sans-serif;
+text-decoration: none;
+color: #fff;
+}
+
+/*Floated Columns--------------------- */
+.Leron  {
+float:left;
+}
+
+.top-1  {
+float: right;
+}
+
+
+.Phone,.top-1, .contact-info,
+.Email,.Instagram  {
+text-decoration: none;
+color: #fff;
+
+}
+
+.instagram {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: #fff;
+   color: black;
+}
+
+
+.clearfix::after {
+content:"";
+display: table;
+clear: both;
+width:100%;
+}
+
+
+
+
+
+
+
+
+/* =================================
+  Media Quieries
+==================================== */
+@media (min-width:768px)  {
+
+ *  {
+ box-sizing: border-box;
+ }
+
+.main-nav li{
+display:inherit;
+width: 100%;
+margin-left: 60px
+
+}
+
+.name {
+float:none;
+}
+.main-nav li a {
+background: #F8F8F8;
+display: none;
+padding: 10px 25px;
+text-decoration: none;
+font-family: 'Roboto',sans-serif;
+font-weight: bold;
+color: #000;
+}
+
+.about {
+padding: 0 30px;
+text-align: left;
+}
+
+.profile {
+float:right;
+margin: 0 25px;
+}
+
+.container {
+margin-top: 100px;
+}
+
+.img{
+width:100%;
+}
+.row {
+min-height: 400px;
+}
+/*Floated Columns--------------------- */
+
+
+
+
+.column-1,
+.column-2,
+.column-3 {
+  float:left;
+  width: 33.333%;
+  padding: 20px 10px;
+  min-height: 400px;
+}
+
+
+.name  {
+float:none;
+}
+
+.top-1 {
+display: none;
+}
+
+.top  {
+float: right;
+}
+
+.Email  {
+text-decoration: none;
+color: #fff;
+
+}
+
+.t-border {
+padding: 0 1em;
+width:100%;
+border-top: 1px solid lightgrey;
+border-bottom: hidden;
+}
+
+
+.top  {
+display: none;
+}
+
+.footer-nav,
+.footer-nav li a{
+float: right;
+text-decoration: none;
+color:#fff;
+display: block;
+}
+
+
+
+li {
+ display: inline-block;
+ margin-right: 20px;
+
+}
+
+
+
+.menu  {
+display: inline-block;
+text-decoration: none;
+font-family: 'Roboto',sans-serif;
+font-weight: bold;
+color: #000;
+}
+
+
+.clearfix::after {
+content:"";
+display: table;
+clear: both;
+width:100%;
+}
+
+
+
+
+
+}
+
+@media (min-width:1024px)    {
+
+  .name  {
+  float:left;
+  margin-top: -3.333%;
+  margin-left: 30px;
+  }
+
+
+  .main-nav li {
+background: none;
+      display: inherit;
+      width: 10%;
+      margin-right: -10px;
+      float: right;
+      margin-top: -30px;
+      color:#fff;
+    }
+
+
+
+
+
+  .column-1,
+  .column-2,
+  .column-3 {
+    float:left;
+    width: 33.333%;
+    padding: 20px 10px;
+    min-height: 400px;
+  }
+
+
+
+
+
+
+
+
+
+  .top-1 {
+  display: none;
+  }
+
+  .top  {
+  float: right;
+  }
+
+  .Email  {
+  text-decoration: none;
+  color: #fff;
+
+  }
+
+  .t-border {
+  padding: 0 1em;
+  width:100%;
+  border-top: 1px solid lightgrey;
+  border-bottom: hidden;
+  }
+
+
+  .top  {
+  display: none;
+  }
+
+  .footer-nav,
+  .footer-nav li a{
+  float: right;
+  text-decoration: none;
+  color:#fff;
+  display: block;
+  }
+
+
+
+    li {
+     display: inline-block;
+     margin-right: 20px;
+
+    }
+
+
+
+    .menu  {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: #000;
+    }
+
+
+  .clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+  width:100%;
+  }
+
+
+
+
+
+  }
+
+
+
+}
